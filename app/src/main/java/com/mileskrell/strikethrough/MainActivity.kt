@@ -18,7 +18,10 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Snackbar
+import androidx.compose.material3.SnackbarDefaults
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
@@ -65,7 +68,14 @@ private fun MainActivityContent() {
             TopAppBar(title = { Text(stringResource(R.string.app_name)) })
         },
         snackbarHost = {
-            SnackbarHost(snackbarHostState)
+            SnackbarHost(snackbarHostState) { data ->
+                val isError = (data.visuals as? SnackbarVisualsWithError)?.isError ?: false
+                Snackbar(
+                    snackbarData = data,
+                    containerColor = if (isError) MaterialTheme.colorScheme.errorContainer else SnackbarDefaults.color,
+                    contentColor = if (isError) MaterialTheme.colorScheme.error else SnackbarDefaults.contentColor,
+                )
+            }
         },
     ) { innerPadding ->
         Column(
@@ -113,9 +123,9 @@ private fun MainActivityContent() {
                                 StatusBarManager.TILE_ADD_REQUEST_RESULT_TILE_ALREADY_ADDED -> R.string.tile_add_request_result_tile_already_added
                                 else -> R.string.tile_add_request_result_tile_not_added
                             }
-                            scope.launch {
-                                snackbarHostState.showSnackbar(context.getString(toastMessageRes))
-                            }
+                            val isError = toastMessageRes == R.string.tile_add_request_result_tile_not_added
+                            val visuals = SnackbarVisualsWithError(context.getString(toastMessageRes), isError)
+                            scope.launch { snackbarHostState.showSnackbar(visuals) }
                         }
                     },
                     modifier = Modifier.align(Alignment.CenterHorizontally).padding(top = 32.dp),
