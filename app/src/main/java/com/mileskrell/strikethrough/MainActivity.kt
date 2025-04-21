@@ -115,7 +115,7 @@ private fun MainActivityContent() {
                         statusBarManager.requestAddTileService(
                             ComponentName(context, StrikethroughTileService::class.java),
                             context.getString(R.string.app_name),
-                            Icon.createWithResource(context, R.drawable.ic_launcher_foreground),
+                            Icon.createWithResource(context, R.drawable.outline_format_strikethrough_24),
                             Executors.newSingleThreadExecutor(),
                         ) { resultCode ->
                             val toastMessageRes = when (resultCode) {
