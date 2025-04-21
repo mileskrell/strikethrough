@@ -82,7 +82,7 @@ private fun MainActivityContent() {
             modifier = Modifier.verticalScroll(rememberScrollState()).padding(innerPadding).padding(horizontal = 16.dp),
         ) {
             Text(
-                text = stringResource(R.string.how_to_use_this_app_title),
+                text = stringResource(R.string.there_are_two_ways_to_use_this_app),
             )
             Text(
                 text = stringResource(R.string.context_menu_instructions),

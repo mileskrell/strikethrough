@@ -7,7 +7,7 @@
     <string name="cancel_action">Cancel</string>
     <string name="copied_to_clipboard_confirmation">Copied to clipboard</string>
     <string name="clip_data_label">crossed out text</string>
-    <string name="how_to_use_this_app_title">There are two ways to use this tool.</string>
+    <string name="there_are_two_ways_to_use_this_app">There are two ways to use this tool.</string>
     <string name="context_menu_instructions">Some apps will now include a \"strikethrough\" option in their context menu when you select text. This option will replace the original text when possible; otherwise, it will copy the crossed-out text to your clipboard.</string>
     <string name="quick_settings_instructions_1">"For apps that don't show this option, you can use a Quick Settings tile. You can add it manually in the "</string>
     <string name="quick_settings_instructions_2">Quick Settings panel</string>
