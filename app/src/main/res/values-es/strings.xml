@@ -8,9 +8,9 @@
     <string name="copied_to_clipboard_confirmation">Copiado a portapapeles</string>
     <string name="clip_data_label">texto tachado</string>
     <string name="how_to_use_this_app_title">Hay dos maneras de usar esta herramienta.</string>
-    <string name="context_menu_instructions">Algunas apps ahora van a mostrar la opción \"tachar\" en su menú de contexto al seleccionar texto. Esto reemplazará el texto original cuando sea posible; si no, copiará el texto tachado al portapapeles.</string>
-    <string name="quick_settings_instructions_1">"Para acceso conveniente en apps en las que no se muestra esta opción, se puede usar mediante una tarjeta de Configuración rápida. Puedes agregarla manualmente en el "</string>
-    <string name="quick_settings_instructions_2">panel de Configuración Rápida</string>
+    <string name="context_menu_instructions">A partir de ahora, algunas apps van a mostrar la opción \"tachar\" en su menú de contexto al seleccionar texto. Esto reemplazará el texto original cuando sea posible; si no, copiará el texto tachado al portapapeles.</string>
+    <string name="quick_settings_instructions_1">"Por las apps que no muestran esta opción, puedes usar una tarjeta de Configuración rápida. Puedes agregarla manualmente en el "</string>
+    <string name="quick_settings_instructions_2">panel de Configuración rápida</string>
     <string name="quick_settings_instructions_3_can_show_add_tile_request">" o automaticamente haciendo clic en este botón:"</string>
     <string name="quick_settings_instructions_3_cannot_show_add_tile_request">.</string>
     <string name="add_quick_settings_tile_button_label">Agregar tarjeta</string>
