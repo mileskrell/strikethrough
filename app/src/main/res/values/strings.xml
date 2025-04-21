@@ -4,5 +4,15 @@
     <string name="copy_to_clipboard_action">Copy to clipboard</string>
     <string name="copied_to_clipboard_confirmation">Copied to clipboard</string>
     <string name="clip_data_label">crossed out text</string>
-    <string name="use_context_menu_suggestion">Tip: You might not have to open this app to use it! Some apps will show a \"strikethrough\" option in the context menu upon selecting text. This option will replace the original text if possible or copy the result to your clipboard otherwise.</string>
+    <string name="how_to_use_this_app_title">There are two ways to use this tool.</string>
+    <string name="context_menu_instructions">Some other apps will now show a \"strikethrough\" option in their context menu when you select text. This will replace the original text if possible. Otherwise it will copy the crossed-out text to your clipboard.</string>
+    <string name="quick_settings_instructions_1">"For convenient access in apps that don't show the context menu option, there's a Quick Settings tile. You can add it in the "</string>
+    <string name="quick_settings_instructions_2">Quick Settings panel</string>
+    <string name="google_support_quick_settings_url" translatable="false">https://support.google.com/android/answer/9083864</string>
+    <string name="quick_settings_instructions_3_can_show_add_tile_request">" or by clicking this button:"</string>
+    <string name="quick_settings_instructions_3_cannot_show_add_tile_request">.</string>
+    <string name="add_quick_settings_tile_button_label">Add tile</string>
+    <string name="tile_add_request_result_tile_added">Tile added!</string>
+    <string name="tile_add_request_result_tile_already_added">Tile already added!</string>
+    <string name="tile_add_request_result_tile_not_added">Could not add tile automatically. You can add the tile manually from Quick Settings.</string>
 </resources>
