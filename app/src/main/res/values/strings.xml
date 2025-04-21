@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Strikethrough</string>
     <string name="text_field_placeholder">Enter text to cross out</string>
-    <string name="copy_to_clipboard_content_description">Copy to clipboard</string>
+    <string name="copy_to_clipboard_action">Copy to clipboard</string>
     <string name="copied_to_clipboard_confirmation">Copied to clipboard</string>
     <string name="clip_data_label">crossed out text</string>
     <string name="use_context_menu_suggestion">Tip: You might not have to open this app to use it! Some apps will show a \"strikethrough\" option in the context menu upon selecting text. This option will replace the original text if possible or copy the result to your clipboard otherwise.</string>

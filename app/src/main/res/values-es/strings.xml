@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Tachar</string>
     <string name="text_field_placeholder">Introduce el texto para tachar</string>
-    <string name="copy_to_clipboard_content_description">Copiar a portapapeles</string>
+    <string name="copy_to_clipboard_action">Copiar a portapapeles</string>
     <string name="copied_to_clipboard_confirmation">Copiado a portapapeles</string>
     <string name="clip_data_label">texto tachado</string>
     <string name="use_context_menu_suggestion">Ten en cuenta: ¡Puede ser que no tengas que abrir esta app para usarla! Algunas apps mostrarán la opción \"tachar\" en el menú de contexto al seleccionar texto. Esta opción reemplaza el texto original si es posible; si no, copia el texto tachado al portapapeles.</string>

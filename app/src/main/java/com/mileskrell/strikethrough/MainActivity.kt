@@ -89,7 +89,7 @@ private fun MainActivityContent() {
                     Icon(
                         painter = painterResource(R.drawable.outline_content_copy_24),
                         tint = null,
-                        contentDescription = stringResource(R.string.copy_to_clipboard_content_description),
+                        contentDescription = stringResource(R.string.copy_to_clipboard_action),
                     )
                 }
             }
