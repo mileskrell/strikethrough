@@ -65,7 +65,7 @@ private fun MainActivityContent() {
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         topBar = {
-            TopAppBar(title = { Text(stringResource(R.string.app_name)) })
+            TopAppBar(title = { Text(stringResource(R.string.main_activity_title)) })
         },
         snackbarHost = {
             SnackbarHost(snackbarHostState) { data ->

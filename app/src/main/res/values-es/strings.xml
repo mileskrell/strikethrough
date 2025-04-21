@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Tachar</string>
+    <string name="main_activity_title">Instrucciones</string>
     <string name="text_field_placeholder">Introduce el texto para tachar</string>
     <string name="copy_to_clipboard_action">Copiar a portapapeles</string>
     <string name="copied_to_clipboard_confirmation">Copiado a portapapeles</string>
