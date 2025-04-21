@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Strikethrough</string>
     <string name="main_activity_title">Instructions</string>
-    <string name="text_field_placeholder">Enter text to cross out</string>
+    <string name="text_field_placeholder">Enter text here</string>
     <string name="copy_to_clipboard_action">Copy to clipboard</string>
     <string name="copied_to_clipboard_confirmation">Copied to clipboard</string>
     <string name="clip_data_label">crossed out text</string>
