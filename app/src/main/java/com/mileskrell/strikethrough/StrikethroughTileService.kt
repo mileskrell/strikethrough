@@ -29,6 +29,9 @@ class StrikethroughTileService : TileService() {
                     Toast.makeText(this, getString(R.string.copied_to_clipboard_confirmation), Toast.LENGTH_SHORT).show()
                 }
             }
+            .setNegativeButton(R.string.cancel_action) { dialog, _ ->
+                dialog.dismiss()
+            }
             .create()
             .apply {
                 setOnShowListener {

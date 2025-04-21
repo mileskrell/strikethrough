@@ -4,6 +4,7 @@
     <string name="main_activity_title">Instrucciones</string>
     <string name="text_field_placeholder">Introduce el texto aquí</string>
     <string name="copy_to_clipboard_action">Copiar a portapapeles</string>
+    <string name="cancel_action">Cancelar</string>
     <string name="copied_to_clipboard_confirmation">Copiado a portapapeles</string>
     <string name="clip_data_label">texto tachado</string>
     <string name="how_to_use_this_app_title">Hay dos maneras de usar esta herramienta.</string>

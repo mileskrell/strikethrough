@@ -3,6 +3,7 @@
     <string name="main_activity_title">Instructions</string>
     <string name="text_field_placeholder">Enter text here</string>
     <string name="copy_to_clipboard_action">Copy to clipboard</string>
+    <string name="cancel_action">Cancel</string>
     <string name="copied_to_clipboard_confirmation">Copied to clipboard</string>
     <string name="clip_data_label">crossed out text</string>
     <string name="how_to_use_this_app_title">There are two ways to use this tool.</string>
