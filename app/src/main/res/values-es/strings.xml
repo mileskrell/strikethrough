@@ -11,7 +11,7 @@
     <string name="context_menu_instructions">A partir de ahora, algunas apps van a mostrar la opción \"tachar\" en su menú de contexto al seleccionar texto. Esto reemplazará el texto original cuando sea posible; si no, copiará el texto tachado al portapapeles.</string>
     <string name="quick_settings_instructions_1">"Por las apps que no muestran esta opción, puedes usar una tarjeta de Configuración rápida. Puedes agregarla manualmente en el "</string>
     <string name="quick_settings_instructions_2">panel de Configuración rápida</string>
-    <string name="quick_settings_instructions_3_can_show_add_tile_request">" o automaticamente haciendo clic en este botón:"</string>
+    <string name="quick_settings_instructions_3_can_show_add_tile_request">" o automáticamente haciendo clic en este botón:"</string>
     <string name="quick_settings_instructions_3_cannot_show_add_tile_request">.</string>
     <string name="add_quick_settings_tile_button_label">Agregar tarjeta</string>
     <string name="tile_add_request_result_tile_added">¡Se agregó la tarjeta con éxito!</string>
